@@ -1,0 +1,21 @@
+{
+    "name": "xeva-dark-theme",
+    "displayName": "xeva-dark-theme",
+    "description": "the dark theme for vscode.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "xeva-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/xeva-code-color.json"
+            }
+        ]
+    }
+}

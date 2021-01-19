@@ -1,0 +1,83 @@
+{
+  "name": "xeva-dark",
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "include": "./xeva-editor-color.json",
+  "tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
+			"name": "GrassGreen",
+			"scope": [
+				"property",
+				"entity.other.attribute-name",
+			],
+			"settings": {
+				"foreground": "#98c379",
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"constant.numeric.decimal"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#00af87"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage",
+				"keyword",
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.end",
+				"punctuation.definition.typeparameters.begin",
+				"punctuation.definition.typeparameters.end",
+				"punctuation.definition.parameters.begin",
+				"punctuation.definition.parameters.end",
+				"punctuation.definition.block",
+				"punctuation.separator",
+				"punctuation.definition.binding-pattern",
+				"meta.brace.round",
+				"meta.brace.square"
+			],
+			"settings": {
+				"foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "this.self",
+			"scope": [
+				"variable.language",
+			],
+			"settings": {
+				"foreground": "#e91e63"
+			}
+		},
+		{
+			"name": "entity",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#61afef",
+			}
+		},
+	],
+  "semanticTokenColors": {
+		"type": "#9B0000",
+		"newOperator":"#C586C0",
+		"stringLiteral":"#ce9178",
+		"customLiteral": "#DCDCAA",
+		"numberLiteral": "#b5cea8"
+	}
+}
