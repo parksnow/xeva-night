@@ -11,7 +11,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#ff4757"
 			}
 		},
 		{
@@ -32,7 +32,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#00af87"
+				"foreground": "#6a9955"
 			}
 		},
 		{
@@ -53,7 +53,7 @@
 				"meta.brace.square"
 			],
 			"settings": {
-				"foreground": "#c678dd"
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -69,7 +69,7 @@
 			"name": "entity",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#61afef",
+				"foreground": "#c19178",
 			}
 		},
 	],
