@@ -75,6 +75,8 @@
 	],
   "semanticTokenColors": {
 		"type": "#9B0000",
+		"enum": "#9B0000",
+		"enumMember": "#ffff55",
 		"newOperator":"#C586C0",
 		"stringLiteral":"#ce9178",
 		"customLiteral": "#DCDCAA",
