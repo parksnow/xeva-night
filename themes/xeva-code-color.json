@@ -8,7 +8,15 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#4D4D00"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"entity.other.inherited-class",
 			],
 			"settings": {
 				"foreground": "#ff4757"
@@ -50,7 +58,8 @@
 				"punctuation.separator",
 				"punctuation.definition.binding-pattern",
 				"meta.brace.round",
-				"meta.brace.square"
+				"meta.brace.square",
+				"markup.inline.raw.string.markdown",
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -60,6 +69,7 @@
 			"name": "this.self",
 			"scope": [
 				"variable.language",
+				"markup.heading.markdown",
 			],
 			"settings": {
 				"foreground": "#e91e63"
@@ -67,7 +77,10 @@
 		},
 		{
 			"name": "entity",
-			"scope": "entity.name.tag",
+			"scope": [
+				"entity.name.tag",
+				"markup.bold.markdown",
+			],
 			"settings": {
 				"foreground": "#c19178",
 			}
@@ -75,6 +88,7 @@
 	],
   "semanticTokenColors": {
 		"type": "#9B0000",
+		"interface": "#9B0000",
 		"enum": "#9B0000",
 		"enumMember": "#ffff55",
 		"newOperator":"#C586C0",
