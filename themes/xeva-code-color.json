@@ -10,7 +10,8 @@
 				"comment",
 			],
 			"settings": {
-				"foreground": "#4D4D00"
+				"foreground": "#4d4d00"
+				// "foreground": "#FFE973"
 			}
 		},
 		{
@@ -36,7 +37,7 @@
 			"name": "String",
 			"scope": [
 				"string",
-				"constant.numeric.decimal"
+				"constant.numeric.decimal",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -90,7 +91,7 @@
 		"type": "#e91e63",
 		"interface": "#e91e63",
 		"enum": "#e91e63",
-		"enumMember": "#c19178",
+		"enumMember": "#e91e63",
 		"newOperator":"#C586C0",
 		"stringLiteral":"#ce9178",
 		"customLiteral": "#DCDCAA",
