@@ -6,23 +6,31 @@
   "tokenColors": [
     {
       "name": "String",
-      "scope": ["string", "constant.numeric"],
+      "scope": [
+        "string",
+        "constant.numeric",
+      ],
       "settings": {
         "foreground": "#6a9955"
       }
     },
     {
       "name": "Comment",
-      "scope": ["entity.other.inherited-class"],
+      "scope": [
+        "entity.other.inherited-class",
+      ],
       "settings": {
         "foreground": "#ff4757"
       }
     },
     {
-      "name": "String",
-      "scope": ["markup.bold.markdown", "entity.name.tag", "entity.other.attribute-name"],
+      "name": "Underline",
+      "scope": [
+        "entity.name.tag",
+        "entity.other.attribute-name",
+        "entity.name.function"
+      ],
       "settings": {
-        "fontStyle": "",
         "foreground": "#c19178"
       }
     },
@@ -42,24 +50,70 @@
         "punctuation.definition.binding-pattern",
         "meta.brace.round",
         "meta.brace.square",
-        "markup.inline.raw.string.markdown"
+        "markup.inline.raw.string.markdown",
       ],
       "settings": {
-        "foreground": "#569cd6"
+        "foreground": "#569cd6",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "this.self",
-      "scope": ["variable.language", "markup.heading.markdown"],
+      "scope": [
+        "variable.language",
+        "markup.heading.markdown",
+      ],
       "settings": {
         "foreground": "#e91e63"
       }
     },
     {
       "name": "Comment",
-      "scope": ["comment"],
+      "scope": [
+        "comment"
+      ],
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#DD5145"
+      }
+    },
+    {
+      "name": "Gray Dark Background",
+      "scope": [
+        "punctuation.definition.markdown",
+        "fenced_code.block.language.markdown",
+      ],
+      "settings": {
+        "foreground": "#1A5F5E",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "purple",
+      "scope": [
+        "support.function.misc.css",
+      ],
+      "settings": {
+        "foreground": "#C586C0",
+      }
+    },
+    {
+      "name": "wheat yellow",
+      "scope": [
+        "markup.bold.markdown",
+        "variable.stylus",
+        "entity.name.function",
+      ],
+      "settings": {
+        "foreground": "#C19C00",
+      }
+    },
+    {
+      "name": "grey",
+      "scope": [
+        "markup.fenced_code.block.markdown",
+      ],
+      "settings": {
+        "foreground": "#888",
       }
     }
   ],
