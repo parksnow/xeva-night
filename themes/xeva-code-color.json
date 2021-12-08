@@ -15,9 +15,10 @@
       }
     },
     {
-      "name": "Comment",
+      "name": "inHeritedClass",
       "scope": [
         "entity.other.inherited-class",
+        "comment",
       ],
       "settings": {
         "foreground": "#ff4757"
@@ -68,22 +69,13 @@
       }
     },
     {
-      "name": "Comment",
-      "scope": [
-        "comment"
-      ],
-      "settings": {
-        "foreground": "#DD5145"
-      }
-    },
-    {
       "name": "Gray Dark Background",
       "scope": [
         "punctuation.definition.markdown",
         "fenced_code.block.language.markdown",
       ],
       "settings": {
-        "foreground": "#1A5F5E",
+        "foreground": "#1a5f5f",
         "fontStyle": "italic"
       }
     },
@@ -118,13 +110,14 @@
     }
   ],
   "semanticTokenColors": {
-    "type": "#e91e63",
-    "interface": "#e91e63",
+    "customLiteral": "#DCDCAA",
     "enum": "#e91e63",
     "enumMember": "#e91e63",
+    "interface": "#e91e63",
     "newOperator": "#C586C0",
+    "numberLiteral": "#b5cea8",
     "stringLiteral": "#ce9178",
-    "customLiteral": "#DCDCAA",
-    "numberLiteral": "#b5cea8"
+    "type": "#e91e63",
+    "variable.readonly": {"underline": true}
   }
 }
