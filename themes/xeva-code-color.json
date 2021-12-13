@@ -73,6 +73,7 @@
       "scope": [
         "punctuation.definition.markdown",
         "fenced_code.block.language.markdown",
+        "markup.underline.link.markdown",
       ],
       "settings": {
         "foreground": "#1a5f5f",
@@ -83,6 +84,7 @@
       "name": "purple",
       "scope": [
         "support.function.misc.css",
+        "markup.bold.markdown",
       ],
       "settings": {
         "foreground": "#C586C0",
@@ -91,7 +93,7 @@
     {
       "name": "wheat yellow",
       "scope": [
-        "markup.bold.markdown",
+        "markup.quote.markdown",
         "variable.stylus",
         "entity.name.function",
       ],
@@ -107,7 +109,7 @@
       "settings": {
         "foreground": "#888",
       }
-    }
+    },
   ],
   "semanticTokenColors": {
     "customLiteral": "#DCDCAA",
