@@ -5,23 +5,22 @@
   "include": "./xeva-editor-color.json",
   "tokenColors": [
     {
-      "name": "String",
+      "name": "comment",
       "scope": [
-        "string",
-        "constant.numeric",
+        "comment",
       ],
       "settings": {
-        "foreground": "#6a9955"
+        "foreground": "#6a9955",
       }
     },
     {
       "name": "inHeritedClass",
       "scope": [
         "entity.other.inherited-class",
-        "comment",
       ],
       "settings": {
-        "foreground": "#ff4757"
+        "foreground": "#ff4757",
+        "fontStyle": "italic"
       }
     },
     {
@@ -32,7 +31,8 @@
         "entity.name.function"
       ],
       "settings": {
-        "foreground": "#c19178"
+        // "foreground": "#c19178"
+        "foreground": "#569cd6",
       }
     },
     {
@@ -113,13 +113,11 @@
   ],
   "semanticTokenColors": {
     "customLiteral": "#DCDCAA",
-    "enum": "#e91e63",
-    "enumMember": "#e91e63",
-    "interface": "#e91e63",
+    "enum": "#9254de",
+    "interface": "#9254de",
+    "type": "#9254de",
     "newOperator": "#C586C0",
     "numberLiteral": "#b5cea8",
     "stringLiteral": "#ce9178",
-    "type": "#e91e63",
-    "variable.readonly": {"underline": true}
   }
 }
