@@ -55,7 +55,6 @@
       ],
       "settings": {
         "foreground": "#569cd6",
-        "fontStyle": "italic"
       }
     },
     {
@@ -118,6 +117,5 @@
     "type": "#9254de",
     "newOperator": "#C586C0",
     "numberLiteral": "#b5cea8",
-    "stringLiteral": "#ce9178",
   }
 }
